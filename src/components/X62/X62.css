@@ -1,0 +1,24 @@
+.x6-8 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 16px 16px;
+}
+
+.level-4 {
+  height: 24px;
+  width: 24px;
+}
+
+.beginner-6 {
+  margin-left: 12px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 600px) {
+  .level-4 {
+    height: 18px;
+    width: 18px;
+  }
+}

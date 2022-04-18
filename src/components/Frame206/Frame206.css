@@ -1,0 +1,204 @@
+.frame-206,
+.frame-206-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+}
+
+.frame-204,
+.frame-204-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.frame-2,
+.frame-5 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 39px;
+  min-width: 100%;
+}
+
+.vector-19-5,
+.vector-19-7 {
+  height: 1px;
+  margin-top: 1.0px;
+  width: 100%;
+}
+
+.player-name,
+.select-difficulty,
+.select-difficulty-1 {
+  letter-spacing: 0;
+  margin-left: 15px;
+  white-space: nowrap;
+}
+
+.vector-18-7,
+.vector-18-9 {
+  height: 1px;
+  margin-left: 15px;
+  margin-top: 1.0px;
+  width: 100%;
+}
+
+.difficulty-2,
+.difficulty-3 {
+  align-items: flex-start;
+  background-color: var(--mystic);
+  border-radius: 8px;
+  display: flex;
+  margin-top: 12px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.background,
+.background-1 {
+  background-color: var(--mystic);
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 100%;
+}
+
+.frame-205,
+.frame-205-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  width: 100%;
+}
+
+.vector-19-6,
+.vector-19-8 {
+  height: 1px;
+  margin-top: 1.0px;
+  width: 170px;
+}
+
+.set-duration,
+.set-duration-1 {
+  letter-spacing: 0;
+  margin-left: 15px;
+  min-height: 28px;
+  min-width: 104px;
+  white-space: nowrap;
+}
+
+.vector-18-8,
+.vector-18-10 {
+  height: 1px;
+  margin-left: 15px;
+  margin-top: 1.0px;
+  width: 170px;
+}
+
+.duration-2,
+.duration-3 {
+  align-items: center;
+  background-color: var(--mystic);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.beginner-container,
+.beginner-container-1 {
+  align-items: center;
+  background-color: var(--mystic);
+  display: flex;
+}
+
+.beginner-12,
+.beginner-13 {
+  letter-spacing: 0;
+  min-width: 80px;
+  white-space: nowrap;
+  padding: 16px 16px;
+}
+
+.beginner-10,
+.beginner-11 {
+  height: 100%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  min-width: 80px;
+  padding: 16px 16px;
+}
+
+.beginner-12:hover,
+.beginner-10:hover
+{
+  cursor: pointer;
+  background-color: var(--sea-serpent);
+  transition: background-color ease 1s;
+}
+
+.frame-206-player-input.MuiFormControl-root
+{
+  width: 100%;
+  margin-top: 16px;
+}
+
+.overlap-group-43
+{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.MuiInputBase-input.MuiOutlinedInput-input {
+  padding: 20px 14px;
+  font-size: var(--font-size-xs);
+}
+
+.level-name
+{
+  width: calc(100%/3);
+  transition: background-color ease 1s;
+}
+
+.active,
+.level-name:hover
+{
+  cursor: pointer;
+  background-color: var(--sea-serpent);
+  transition: background-color ease 1s;
+}
+
+@media only screen and (max-width: 600px) {
+  .frame-206,
+  .frame-206-1 {
+    max-width: 100%;
+  }
+
+  .frame-206-player-input.MuiFormControl-root
+  {
+    width: 80%;
+  }
+
+  .frame-203
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .frame-204,
+  .frame-204-1 {
+    width: 90%;
+  }
+
+}

@@ -1,0 +1,50 @@
+.menu {
+  -webkit-backdrop-filter: blur(44px) brightness(100%);
+  align-items: center;
+  backdrop-filter: blur(44px) brightness(100%);
+  background-color: var(--midnight);
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px transparent;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  margin-left: 15px;
+  margin-top: -0.5px;
+  min-width: 108px;
+  padding: 0 2px;
+}
+
+.frame-17814 {
+  align-items: center;
+  display: flex;
+  height: 32px;
+  min-width: 62px;
+}
+
+.ng-2 {
+  letter-spacing: 0;
+  line-height: 162px;
+  min-height: 32px;
+  min-width: 30px;
+  white-space: nowrap;
+}
+
+.flags {
+  height: 20px;
+  margin-left: 4px;
+  width: 28px;
+}
+
+.iconframe {
+  background-image: url(/static/img/arrow-drop-down-1@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  margin-left: 10px;
+  width: 22px;
+}
+
+.menu.menu-2,
+.menu.menu-3 {
+  margin-top: unset;
+}
+

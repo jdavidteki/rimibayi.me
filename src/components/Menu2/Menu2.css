@@ -1,0 +1,34 @@
+.menu-6{
+  align-items: center;
+  display: flex;
+  height: 64px;
+  justify-content: flex-end;
+  margin-left: 4px;
+  padding: 0 8px;
+}
+
+.games-7 {
+  height: 32px;
+  letter-spacing: 0;
+  line-height: 162px;
+  white-space: nowrap;
+}
+
+.iconframe-6 {
+  background-image: url(/static/img/arrow-drop-down-9@2x.png);
+  background-size: 100% 100%;
+  height: 22px;
+  margin-left: 10px;
+  width: 22px;
+}
+
+.menu-6.menu-8,
+.menu-6.menu-9,
+.menu-6.menu-10 {
+  margin-left: 30px;
+}
+
+.menu-6.menu-11 {
+  background-color: var(--fire-bush);
+  margin-left: unset;
+}

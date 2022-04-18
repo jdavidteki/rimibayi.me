@@ -1,0 +1,217 @@
+.Yokis-cta
+{
+	cursor: pointer;
+	color: #f7f8e4;
+}
+
+.Yokis-DescWrapper-author,
+.Yokis-DescWrapper-dateCreated
+{
+	margin-left: 22px;
+	color: #b5b6af;
+	font-size: 9px;
+	font-weight: bolder;
+}
+
+.Yokis-title
+{
+    background-color: #6bf1f1;
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.Yokis-title-sub
+{
+	font-size: 12px;
+}
+
+.is-hidden
+{
+	display: none;
+}
+
+.Yokis-artDesc
+{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 80px;
+	margin: 0 auto;
+	height: 75%;
+	background-color: #f7f8e4;
+	width: 80%;
+	border-radius: 5px;
+	z-index: 9999;
+}
+
+.Yokis-updatedSongs
+{
+    overflow: auto;
+    margin-top: 16px;
+}
+
+.Yokis-controlMenu
+{
+    display: flex;
+    justify-content: center;
+}
+
+.Yokis-updateProgress
+{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.Yokis-content
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.Yokis-closeIcon
+{
+	position: absolute;
+	right: 0;
+	top: 5px;
+}
+
+.Yokis-artDescWrapper
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+    padding: 36px;
+}
+
+.Yokis-title
+{
+    text-align: center;
+	margin-bottom: 16px;
+}
+
+.Yokis-imageStory
+{
+	display: flex;
+	height: 100%;
+	width: 100%;
+	padding: 35px;
+}
+
+.Yokis-imageWrapper,
+.Yokis-image
+{
+	width: 100%;
+}
+
+.Yokis-image
+{
+	object-fit: contain;
+	border-radius: 5px;
+	height: 320px;
+}
+
+.Yokis-ImageDescWrapper
+{
+	width: 40%;
+}
+
+.Yokis-DescWrapper
+{
+	width: 60%;
+	display: flex;
+	height: 100%;
+	align-items: flex-end;
+	padding-bottom: 10%;
+}
+
+.Yokis-DescWrapper-title
+{
+	font-size: 48px;
+	margin-right: 8px;
+	margin-left: -30px;
+}
+
+.Yokis-insertCommentIcon{
+	margin-left: 10px;
+	height: 18px !important;
+	width: 18px !important;
+	cursor: pointer;
+}
+
+.Yokis-insertCommentIcon:hover{
+	fill: #8a2be2;
+}
+
+.Yokis-DescWrapper-content{
+	height: 100%;
+	width: 100%;
+}
+
+.Yokis-DescWrapper-content pre{
+	height: 80%;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	display: flex;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 600px) {
+	.Yokis-DescWrapper,
+	.Yokis-ImageDescWrapper
+	{
+		width: 100%;
+	}
+
+	.Yokis-imageStory
+	{
+		flex-direction: column;
+		padding: 15px;
+	}
+
+	.Yokis-image
+	{
+		height: 200px;
+	}
+
+	.Yokis-DescWrapper
+	{
+		flex-direction: column;
+		height: 50%;
+		padding-bottom: 10px;
+	}
+
+	.Yokis-artDesc
+	{
+		width: 100%;
+	}
+
+	.Yokis-DescWrapper-content
+	{
+		max-height: 400px;
+		overflow-y: auto;
+	}
+
+	.Yokis-DescWrapper-content pre{
+		height: auto;
+	}
+
+	.Yokis-DescWrapper-title
+	{
+		margin-top: 15px;
+		margin-left: 0;
+	}
+
+	.Yokis-title-sub
+	{
+		text-align: left;
+	}
+}

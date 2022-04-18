@@ -1,0 +1,80 @@
+.frame-261,
+.frame-261-1 {
+  align-items: center;
+  display: flex;
+  margin-top: 32px;
+}
+
+.frame-246,
+.frame-246-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.frame-140-10,
+.frame-140-11 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 8px;
+  min-width: 56px;
+}
+
+.iconframe-12,
+.iconframe-14 {
+  background-image: url(/static/img/twitter---negative-10@2x.png);
+  background-size: 100% 100%;
+  height: 18px;
+  width: 18px;
+  cursor: pointer;
+}
+
+.iconframe-13,
+.iconframe-15 {
+  background-image: url(/static/img/instagram---negative-10@2x.png);
+  background-size: 100% 100%;
+  height: 18px;
+  margin-left: 12px;
+  width: 18px;
+  cursor: pointer;
+}
+
+.buttons-10,
+.buttons-11 {
+  align-items: center;
+  background-color: var(--chambray);
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  margin-left: 16px;
+  min-width: 150px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.buttons-10:hover,
+.buttons-11:hover {
+  background-color: var(--gravel);
+  transition: background-color 1s ease;
+}
+
+.buttons-10:hover .poppins-medium-pine-green-20px,
+.buttons-11:hover .poppins-medium-pine-green-20px{
+  color: white;
+}
+
+.text-53,
+.text-54 {
+  height: 32px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .frame-246{
+    display: none;
+  }
+}

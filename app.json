@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "rimibayi",
+    "slug": "rimibayi",
+    "entryPoint": "./index.js",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "packagerOpts": {
+      "sourceExts": ["js", "jsx", "scss", "sass"],
+      "transformer": "node_modules/react-native-sass-transformer/index.js"
+    },
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "description": ""
+  }
+}

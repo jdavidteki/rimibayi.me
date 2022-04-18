@@ -1,0 +1,96 @@
+.footer-default {
+  justify-content: center;
+  background-color: var(--chambray);
+  display: flex;
+  height: 65px;
+  margin-top: 24px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.frame-142 {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 4px;
+  width: 80%;
+  padding: 0 16px;
+}
+
+.frame-255 {
+  align-items: center;
+  display: flex;
+  padding: 0 8px;
+}
+
+.text-10 {
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.text-11 {
+  letter-spacing: 0;
+  margin-left: 16px;
+  white-space: nowrap;
+}
+
+.text-12 {
+  letter-spacing: 0;
+  margin-left: 16px;
+  white-space: nowrap;
+}
+
+.frame-140 {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  padding: 0 8px;
+}
+
+.twitter-negative {
+  height: 16px;
+  width: 16px;
+  transition: transform 1s;
+}
+
+.instagram-negative {
+  height: 16px;
+  margin-left: 16px;
+  width: 16px;
+  transition: transform 1s;
+}
+
+
+.footer-default.footer-default-1 {
+  left: 0;
+  margin-top: unset;
+  position: absolute;
+  top: 35px;
+}
+
+.footer-default.footer-default-2,
+.footer-default.footer-default-3,
+.footer-default.footer-default-4,
+.footer-default.footer-default-5,
+.footer-default.footer-default-6,
+.footer-default.footer-default-7,
+.footer-default.footer-default-8 {
+  margin-top: unset;
+}
+
+.footer-default.footer-menu-footer-default {
+  margin-top: 16px;
+}
+
+.twitter-negative:hover,
+.instagram-negative:hover
+{
+  transform: rotate(-315deg);
+  transition: transform 1s;
+}
+
+@media only screen and (max-width: 600px) {
+  .frame-142 {
+    width: 100%;
+    padding: 0;
+  }
+}

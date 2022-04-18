@@ -1,0 +1,30 @@
+.section {
+  align-items: center;
+  display: flex;
+  height: 39px;
+  min-width: 862px;
+  padding: 0 150px;
+}
+
+.vector-19 {
+  height: 1px;
+  margin-top: 1.0px;
+  width: 208px;
+}
+
+.trending-6 {
+  letter-spacing: 0;
+  line-height: 162px;
+  margin-left: 15px;
+  min-height: 39px;
+  min-width: 117px;
+  white-space: nowrap;
+}
+
+.vector-18 {
+  height: 1px;
+  margin-left: 15px;
+  margin-top: 1.0px;
+  width: 208px;
+}
+

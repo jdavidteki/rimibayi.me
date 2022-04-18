@@ -1,0 +1,23 @@
+.frame-194-4 {
+  align-items: center;
+  display: flex;
+  margin-left: 12px;
+  min-width: 39px;
+}
+
+.score-5 {
+  height: 20px;
+  width: 20px;
+}
+
+.number-10 {
+  height: 32px;
+  margin-left: 4px;
+  min-width: 13px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.frame-194-4.frame-194-6 {
+  margin-left: 24px;
+}

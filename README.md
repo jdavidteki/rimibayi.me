@@ -1,2 +1,3 @@
-# rimibayi.me
-like linktree but more intelligent
+# Description
+
+like linktree but more fun

@@ -1,0 +1,41 @@
+.section-5,
+.section-6 {
+  align-items: center;
+  display: flex;
+  padding: 0 32px;
+  margin: 0 8px;
+}
+
+.trending-9,
+.trending-10 {
+  min-height: 32px;
+  min-width: 113px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+}
+
+.vector-18-3,
+.vector-18-4 {
+  height: 1px;
+  margin-left: 15px;
+  margin-top: 1.0px;
+  width: 433px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .section2-1 {
+    padding: 0 16px;
+  }
+
+  .section-5,
+  .section-6 {
+    justify-content: center;
+  }
+
+  .vector-18-3,
+  .vector-18-4 {
+    width: 200px;
+  }
+}

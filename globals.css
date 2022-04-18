@@ -1,0 +1,84 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,300,700,500|Inter:400,700|Patrick+Hand:400|Roboto:400,700|Lora:400,500");
+@font-face {
+  font-family: "Segoe UI-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("static/fonts/segoe-ui-semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Segoe UI-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("static/fonts/segoeuib.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Comic Sans MS-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("static/fonts/Comic Sans MS.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Comic Sans MS-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("static/fonts/Comic Sans MS Bold.ttf") format("truetype");
+}
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/62303da0ae75681998aa5e14.62303da2ae75681998aa5e17.Pu63N0g.rcp.png");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+}
+
+.container-center-horizontal > * {
+  pointer-events: auto;
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app,
+body,
+html{
+  height: 100%;
+  font-family: var(--font-family-poppins);
+}
+
+::-webkit-scrollbar {
+  height: 2px;
+  width: 2px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--fire-bush);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--champagne);
+  cursor: pointer;
+}

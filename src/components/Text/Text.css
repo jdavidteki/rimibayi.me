@@ -1,0 +1,34 @@
+.text-47,
+.text-48,
+.text-49 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 16px;
+}
+
+.name,
+.name-1,
+.name-2 {
+  height: 32px;
+  text-align: center;
+  white-space: nowrap;
+  text-transform: lowercase;
+}
+
+.wiz-kid-ft-burna-boy,
+.wiz-kid-ft-burna-boy-1,
+.wiz-kid-ft-burna-boy-2 {
+  height: 32px;
+  margin-left: 8px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .text-47
+  {
+    flex-direction: column;
+    line-height: 40px;
+  }
+}

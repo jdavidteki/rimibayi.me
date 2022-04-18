@@ -1,0 +1,12 @@
+.section-3,
+.section-4 {
+  align-items: flex-start;
+  display: flex;
+  padding: 0 55px;
+  position: relative;
+}
+
+.what-would-you-like-to-sing-to-today,
+.what-would-you-like-to-sing-to-today-1 {
+  white-space: nowrap;
+}

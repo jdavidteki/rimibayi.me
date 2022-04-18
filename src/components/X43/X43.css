@@ -1,0 +1,31 @@
+.x4-2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 0 16px;
+}
+
+.level-3 {
+  height: 24px;
+  width: 24px;
+}
+
+.beginner-4 {
+  letter-spacing: 0;
+  margin-left: 12px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.x4-2.x10-1,
+.x4-2.x10-2 {
+  left: 0;
+  top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .level-3 {
+    height: 18px;
+    width: 18px;
+  }
+}

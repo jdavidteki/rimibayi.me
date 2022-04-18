@@ -1,0 +1,26 @@
+.titlelevel {
+  display: flex;
+  align-items: center;
+}
+
+.guess-the-song-6 {
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.level-7 {
+  height: 32px;
+  margin-left: 12px;
+  width: 32px;
+}
+
+.titlelevel.titlelevel-1 {
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .level-7{
+    height: 24px;
+    width: 24px;
+  }
+}
