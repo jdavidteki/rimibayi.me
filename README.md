@@ -1,2 +1,2 @@
 # rimibayi.me
-link linktree but more intelligent
+like linktree but more intelligent
