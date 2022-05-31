@@ -1,0 +1,10 @@
+.Searcher {
+    position: fixed;
+    width: 50%;
+    top: 40%;
+    left: 25%;
+    z-index: 2;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}

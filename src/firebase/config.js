@@ -1,12 +1,12 @@
-const firebaseConfig = {
-  apiKey: "AIzaSyCIg3Xc3yYNYgXL90XXwaW2cyMafnvusYE",
-  authDomain: "rimibayi-4b634.firebaseapp.com",
-  databaseURL: "https://rimibayi-4b634-default-rtdb.firebaseio.com",
-  projectId: "rimibayi-4b634",
-  storageBucket: "rimibayi-4b634.appspot.com",
-  messagingSenderId: "171492275085",
-  appId: "1:171492275085:web:f2c1364b0feee41e1083c4",
-  measurementId: "G-TSPVJ130EK"
+const config = {
+  apiKey: "AIzaSyATU2J_R9eJJKRS6tbvKIyTYsiqxk1akDY",
+  authDomain: "notebook-10d38.firebaseapp.com",
+  databaseURL: "https://notebook-10d38-default-rtdb.firebaseio.com",
+  projectId: "notebook-10d38",
+  storageBucket: "notebook-10d38.appspot.com",
+  messagingSenderId: "975873950318",
+  appId: "1:975873950318:web:abc9006c1bb72e063f9c7f",
+  measurementId: "G-74LVR3GNCY"
 };
 
-export default firebaseConfig
+export default config

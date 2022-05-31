@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Switch, Route } from "react-router-dom";
-import Admin from './components/admin/Admin.js'
 import Homepage3 from "./components/Homepage";
+import RimiCard from "./components/RimiCard/RimiCard.js";
+import CreateRimi from "./components/CreateRimi/CreateRimi.js"
 
 import "./App.css";
 
@@ -16,8 +17,8 @@ class App extends Component {
       <Switch>
         <Route path="/" exact component={Homepage3} />
         <Route path="/rimibayi" exact component={Homepage3} />
-        <Route path="/admin" exact component={Admin} />
-        <Route component={ForOFor}/>
+        <Route path="/rimicard/:id" component={RimiCard} />
+        <Route path="/createrimi" component={CreateRimi} />
       </Switch>
     );
   }

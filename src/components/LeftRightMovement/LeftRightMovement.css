@@ -1,0 +1,42 @@
+.LeftRightMovement{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.LeftRightMovement-firstRow,
+.LeftRightMovement-secRow,
+.LeftRightMovement-thirdRow{
+    height: 33%;
+    display: flex;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    flex-wrap: wrap;
+}
+
+.LeftRightMovement-eachRimi{
+    white-space: normal;
+    cursor: pointer;
+    height: 16px;
+}
+
+.bottomFadeOutCurrentLine{
+    animation-name: bottomFadeOutCurrentLine;
+    animation-duration: 0.4s;
+    white-space: normal;
+  }
+
+@keyframes bottomFadeOutCurrentLine {
+    0% {
+        opacity: 0.3;
+    }
+
+    75% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

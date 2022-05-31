@@ -1,0 +1,52 @@
+/* .SongList {
+  width: 100%;
+  max-height: 0;
+  overflow-y: hidden;
+  transition: max-height 0.25s ease-in; }
+  .SongList.SongList-expandResults {
+    display: flex;
+    width: 100%;
+    max-height: 500px;
+    transition: max-height 0.25s ease-in;
+    padding: 10px 0;
+    }
+  .SongList-container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    width: 100%; }
+
+  .SongList-emptySearch-wrapper{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .SongList-emptySearch {
+    margin-left: auto;
+    margin-right: auto;
+    overflow-y: hidden;
+    padding: 5px;
+    background-color: #f4f5d7;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 4px;
+  }
+
+  .SongList-suggestText{
+    color: #5956f7;
+  }
+
+  .SongList-suggestText:hover{
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .SongList-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      min-height: 500px;
+    }
+  } */
